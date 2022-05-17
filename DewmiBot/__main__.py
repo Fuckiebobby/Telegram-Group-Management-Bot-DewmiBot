@@ -61,9 +61,9 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-*Hi, my name is* 🌸 දෙව්මි උත්තරා [🌸](https://telegra.ph/file/8cabfc3e05d3302d73dde.jpg) !
+*Hi, my name is* ᴄᴜᴛɪᴇ [🌸](https://telegra.ph/file/3866935aa1b47f9b0f1a1.mp4) !
 
-I am a Powerful Group Manager bot Developed by [GD Hiruna](t.me/hirunaofficial)
+I am a Powerful Group Manager bot Developed by [BOBBY](t.me/love_u_bobby)
 
 You can find my list of available commands with /help.
 
@@ -71,8 +71,8 @@ You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/8cabfc3e05d3302d73dde.jpg)
-Hey there! My name is *🌸 දෙව්මි උත්තරා 🌸*
+*Main Commands :* [🤖](https://telegra.ph/file/d851cef5fc7e2644264bf.jpg) 
+Hey there! My name is *ᴄᴜᴛɪᴇ*
 I'm Powerful BOT to Make Your Groups Secured and Organized & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -90,18 +90,18 @@ Main commands available:
 
 
 DONATE_STRING = """
-*🌸 දෙව්මි උත්තරා 🌸* is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to the developer of the *🌸 දෙව්මි උත්තරා 🌸*, [GD Hiruna](t.me/hirunaofficial)
+*🍂 ᴄᴜᴛɪᴇ 🍂* is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
+You can donate to the developer of the *🐣cutie🐣*, [FUCKER](t.me/love_u_bobby)
 """
 
 BUTTONS = [
                     [
                         InlineKeyboardButton(
                              text=" 👪 Support Group ",
-                             url="https://t.me/sltechzoneofficial"),
+                             url="https://t.me/tamil_comrades_x"),
                          InlineKeyboardButton(
                              text=" 🔔 Update Channel ",
-                             url="https://t.me/sltechzone")
+                             url="https://t.me/BOBBYXWORLD")
                     ],
                     [
                         InlineKeyboardButton(
@@ -109,7 +109,7 @@ BUTTONS = [
                             url="https://t.me/dewmibot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Developer ",
-                             url="https://t.me/hirunaofficial")        
+                             url="https://t.me/aboutbobby")        
                        
                     ],
                     [
@@ -366,11 +366,11 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"👋 Hi again!  The name's {dispatcher.bot.first_name} is a Powerful BOT to Make Your Groups Secured and Organized Developed by [GD Hiruna](https://t.me/hirunaofficial)"
+            text=f"👋 Hi again!  The name's {dispatcher.bot.first_name} is a Powerful BOT to Make Your Groups Secured and Organized Developed by [Bobby](https://t.me/love_u_bobby)"
             f"\n\n✍️ Join [SL Tech Zone](https://t.me/sltechzone) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n💪 I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\n👊 I Can Manage Your Groups Smoothly, With Some Special Features."
-            f"\n\n[👇](https://telegra.ph/file/8cabfc3e05d3302d73dde.jpg) You Can Know More About Me By Clicking The Below Buttons.",
+            f"\n\n[👇](https://telegra.ph/file/d851cef5fc7e2644264bf.jpg) You Can Know More About Me By Clicking The Below Buttons.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
